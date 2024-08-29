@@ -1,6 +1,6 @@
 # LegalMind AI
 
-Welcome to **LegalMind AI** – your ultimate AI-driven sidekick for legal research in Indian commercial courts! 🚀
+Welcome to **LegalMind AI** – ultimate AI-driven sidekick for legal research in Indian commercial courts! 🚀
 
 ## About Our Solution
 
