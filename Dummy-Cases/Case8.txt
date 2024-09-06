@@ -1,0 +1,52 @@
+Case No.: CS(COMM) 2024/03876
+
+Judge: Hon. Justice Rajesh Prasad
+
+POST-HEARING CASE SUMMARY
+
+Date of Final Hearing: October 5-10, 2024
+
+Matter: Dispute Over Intellectual Property Rights and Infringement
+
+I. CASE OVERVIEW
+This case involves a commercial dispute between Innovate Tech Solutions Pvt. Ltd. ("Innovate Tech") and Zenith Software Ltd. ("Zenith Software") concerning alleged infringement of intellectual property rights (IPR) and breach of a software licensing agreement.
+
+II. PARTIES
+Plaintiff: Innovate Tech Solutions Pvt. Ltd.
+
+A private limited company incorporated under the Companies Act, 2013, with its head office in Bengaluru, Karnataka, specializing in software development and IT solutions.
+Represented by: Rao & Bhat Advocates
+Defendant: Zenith Software Ltd.
+
+A public limited company incorporated under the Companies Act, 1956, with its registered office in Hyderabad, Telangana, specializing in enterprise software solutions and IT consulting services.
+Represented by: Singh & Associates Law Firm
+III. FACTUAL BACKGROUND
+The Software Licensing Agreement:
+On February 20, 2023, Innovate Tech entered into a licensing agreement with Zenith Software for the use of its proprietary enterprise resource planning (ERP) software. The agreement included clauses on usage rights, intellectual property protection, and penalties for unauthorized use.
+
+Alleged Infringement:
+Innovate Tech alleges that Zenith Software breached the licensing agreement by reverse-engineering the ERP software and using it to develop a competing product without authorization. The plaintiff claims that this infringement has caused significant financial losses and market competition.
+
+Intellectual Property Rights Violation:
+In addition to the breach of contract, Innovate Tech contends that Zenith Software's actions constitute a violation of intellectual property rights, as the defendant allegedly copied and utilized proprietary code and algorithms owned by Innovate Tech.
+
+IV. ISSUES PRESENTED
+Whether Zenith Software breached the software licensing agreement by reverse-engineering the ERP software.
+Whether Zenith Software infringed on Innovate Tech's intellectual property rights.
+Whether Innovate Tech is entitled to damages, injunctive relief, and other remedies.
+V. ARGUMENTS
+1. Plaintiff's Arguments:
+Innovate Tech argues that Zenith Software's unauthorized reverse-engineering of its ERP software is a clear violation of the licensing agreement, leading to direct financial losses and unfair competition in the market.
+The plaintiff further contends that the defendant's actions constitute intellectual property theft, as Zenith Software allegedly copied proprietary code and algorithms without permission.
+Innovate Tech seeks compensatory and punitive damages, along with an injunction to prevent further infringement and the sale of the competing product.
+2. Defendant's Arguments:
+Zenith Software denies the breach and infringement allegations, asserting that the development of their product was entirely independent and based on original research and development efforts.
+The defendant also argues that Innovate Tech's claims lack substantial evidence and that the reverse-engineering accusation is baseless.
+Zenith Software seeks dismissal of the case and reimbursement of legal costs due to what they claim are unfounded accusations.
+VI. JUDGMENT RESERVED
+The court has reserved its judgment, with a decision expected by December 2024.
+
+VII. RELIEF SOUGHT
+Compensatory Damages: ₹60 crore for financial losses and market disruption.
+Punitive Damages: ₹20 crore for willful infringement of intellectual property rights.
+Injunctive Relief: Permanent injunction preventing Zenith Software from using, selling, or distributing the allegedly infringing product.

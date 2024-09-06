@@ -1,6 +1,5 @@
-pip install transformers
-
 import re
+import csv
 from transformers import BartTokenizer, BartForConditionalGeneration
 
 def load_model_and_tokenizer():
@@ -28,25 +27,41 @@ def summarize_text(tokenizer, model, text):
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
     return summary
 
+def find_case_by_number(case_number, csv_file):
+    # Read the CSV file and search for the case number
+    with open(csv_file, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row['Case No.'].strip() == case_number.strip():
+                # Combine relevant fields to summarize
+                text_to_summarize = f"{row['Matter']} {row['Factual Background']} {row['Issues Presented']} {row['Plaintiff Arguments']} {row['Defendant Arguments']} {row['Relief Sought']}"
+                return text_to_summarize
+    return None
+
 def main():
+    # Load model and tokenizer
     tokenizer, model = load_model_and_tokenizer()
     
-    print("Enter the legal document text (press Enter twice to finish):")
-    input_text = ""
+    # Define the CSV file path
+    csv_file = r"C:\Users\ertri\Downloads\Github projects\legalmind-ai\DummyCase_Data.csv"
     
-    while True:
-        line = input()
-        if line.strip() == '':
-            # Process and summarize when a blank line is entered
-            if input_text.strip():  # Ensure there is text to process
-                summary = summarize_text(tokenizer, model, input_text)
-                print("\nSummary:")
-                print(summary)
-                input_text = ""  # Clear the text for new input
-            else:
-                print("No text to summarize.")
-        else:
-            input_text += line + "\n"
+    # Get case number input
+    case_number = input("Enter the case number to summarize: ")
+    
+    # Find the case by number in the CSV file
+    text = find_case_by_number(case_number, csv_file)
+    
+    if text:
+        print("Text to summarize:")
+        print(text)
+        
+        # Summarize the text
+        summary = summarize_text(tokenizer, model, text)
+        
+        print("\nSummary:")
+        print(summary)
+    else:
+        print("Case not found.")
 
 if __name__ == "__main__":
     main()
