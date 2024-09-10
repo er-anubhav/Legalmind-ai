@@ -9,3 +9,5 @@ Follow the below steps
 - Copy/Paste the link on any browser and access the software.
 
 Thank you for reading and doing it patiently.
+
+[Check out this file is confused in build part..](./legalmindai-software/README.md)
