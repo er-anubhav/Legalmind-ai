@@ -5,7 +5,9 @@ Welcome to **LegalMind AI** – ultimate AI-driven sidekick for legal research i
 ## Must Read 
    
 [This link contains Expaination of some of your questions!](./Explaination.md)
+   
 [You can run this software by reading guide from this link. Make sure to patiently perform each and Every steps explained](./How-to-run.md)
+   
 [Install all the requirements from here!](./Required.md)
 
 ## About Our Solution
