@@ -4,7 +4,7 @@ import csv
 from transformers import BartTokenizer, BartForConditionalGeneration
 import os
 
-app = Flask(__name__, static_folder='legal-case-summarizer/build', static_url_path='')
+app = Flask(__name__, static_folder='legalmindai-software/build', static_url_path='')
 
 # Load the model and tokenizer at the start
 tokenizer, model = BartTokenizer.from_pretrained("facebook/bart-large-cnn"), BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
